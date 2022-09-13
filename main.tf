@@ -99,6 +99,6 @@ resource "aws_security_group" "web_allow_http_ssh" {
 }
 
 # 7. Creating Output block
-#output "subnet_id" {
- #value = aws_subnet.web_subnet.id
-#}
+output "subnet_id" {
+ value = aws_subnet.web_subnet.id
+}
